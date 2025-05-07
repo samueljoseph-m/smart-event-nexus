@@ -1,23 +1,32 @@
 # Smart Event Nexus
 
-A full-featured event manager with task automation and role-based dashboards, built using:
+Smart Event Nexus is an advanced event management platform built with **React**, **TypeScript**, and **Tailwind CSS**. It features user roles, automated task generation, and streamlined event handling.
 
-- **React + Vite + TypeScript**
-- **Tailwind CSS + ShadCN UI**
-- **Radix UI + Zod + React Hook Form**
-- **TanStack Query**
-- **Recharts + Embla Carousel**
+---
 
-## Features
+## ✨ Features
+- Role-based dashboards: Admins, Department Heads, Supervisors, Volunteers, Participants
+- Automated task generation for events
+- Event payment system: Single & Subscription
+- Modern UI with Radix UI + shadcn
+- Tailwind CSS styling
+- Form validation with React Hook Form + Zod
 
-- Multi-role access (Admin, Department Head, Supervisor, Volunteer, Participant)
-- Automated task generation and department assignments
-- Responsive UI with modern design system
-- Subscription-based event creation (no free plan)
+---
 
-## Scripts
+## 🛠️ Tech Stack
+- React + TypeScript + Vite
+- Tailwind CSS + shadcn/ui
+- Radix UI + Lucide Icons
+- React Hook Form + Zod
+- TanStack React Query
+- React Router DOM
 
+---
+
+## 🚀 Getting Started
+
+### 1. Clone and Install
 ```bash
-npm run dev       # Start local server
-npm run build     # Build for production
-npm run preview   # Preview production build
+npm install
+npm run dev
